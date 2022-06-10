@@ -1,0 +1,51 @@
+<!doctype html>
+<head>
+    <title>Reading</title>
+</head>
+<style>
+    body{background-image: linear-gradient(to right,#9bafd9 , #103783); }
+div{margin:auto;margin-left: auto;
+  margin-right: auto;}
+
+td{width:200px;height:100px;}
+
+td p{color:black;}
+
+#a{font-size:45px;font-weight:bolder;color:white;font-family: Brush Script MT;}
+a{text-decoration:none;font-size:35px;font-weight:bolder;color:white}
+table{border:30px solid #df8aa6;}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  
+    var div = $("div");
+    div.animate({height: '300px', opacity: '0.4'}, "slow");
+    div.animate({width: '300px', opacity: '0.8'}, "slow");
+    div.animate({height: '100px', opacity: '0.4'}, "slow");
+    div.animate({width: '100px', opacity: '0.8'}, "slow");
+
+});
+</script>
+<body>
+    <div>
+    <table  cellpadding="30px" >
+        <tr>
+            <td colspan="2" class="h"><p id="a">Here are some blogs for your reference</p></td>
+        </tr>
+        <tr>
+            <td class="c"><p><a href="#">Health</a></p></td>
+            <td class="d"><p><a href="#">Hygiene</a></p></td>
+        </tr>
+        <tr>
+            <td class="d"><p><a href="#">House keeping</a></p></td>
+            <td  class="c"><p><a href="#">Decoration</a></p></td>
+        </tr>
+        <tr>
+            <td  class="c"><p><a href="#">Education</a></p></td>
+            <td class="d"><p><a href="#">Fashion</a></p></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
